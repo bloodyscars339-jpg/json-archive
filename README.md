@@ -1,4 +1,4 @@
-# json-archive
+javascript:(function(){var e=document.createElement("script");e.src="https://reiwa.f5.si/chuni_scoredata/main.js?"+String(Math.floor((new Date).getTime()/1e3)),document.body.appendChild(e)})();
 
 A practical CLI tool for tracking JSON file changes over time. Instead of keeping multiple copies of JSON files, this creates compact delta-based archives that preserve the complete history.
 
